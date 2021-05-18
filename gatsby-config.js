@@ -5,6 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "Zombits",
+    description: "The Zombits website 👾",
+    author: "Adam Dorogi-Kaposi",
+    siteUrl: "https://zombits.io",
+    twitter: "https://twitter.com/ZombitsNFT",
+  },
   plugins: [],
 }
