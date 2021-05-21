@@ -1,9 +1,3 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
   siteMetadata: {
     title: "Zombits",
@@ -12,5 +6,5 @@ module.exports = {
     siteUrl: "https://zombits.io",
     twitter: "https://twitter.com/ZombitsNFT",
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-plugin-sass"],
 }
