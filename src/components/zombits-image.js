@@ -13,6 +13,7 @@ const ZombitsImage = ({
       src={`/zombits/Zombit${zombitId}.png`}
       alt={`Zombit #${zombitId}`}
       width={size}
+      height={size}
       className={zombitsImageStyles.pixelated}
       effect="opacity"
     />

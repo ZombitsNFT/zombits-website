@@ -1,15 +1,14 @@
 import React from "react"
+import Head from "../components/head"
 
-import ZombitsImage from "../components/zombits-image"
-import ZombitsLogo from "../components/zombits-logo"
+import ZombitsHeader from "../components/zombits-header"
+import "../styles/index.scss"
 
 const Home = () => {
   return (
     <div>
-      <ZombitsLogo size={200} />
-      <ZombitsImage size={200} />
-      <ZombitsImage size={200} />
-      <ZombitsImage size={200} />
+      <Head title="Coming Soon" />
+      <ZombitsHeader />
     </div>
   )
 }
