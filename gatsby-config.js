@@ -19,5 +19,11 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: "gatsby-plugin-google-gtag",
+      options: {
+        trackingIds: ["G-WZDZQWNV9Z"],
+      },
+    },
   ],
 }
