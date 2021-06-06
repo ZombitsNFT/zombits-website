@@ -58,6 +58,10 @@ const Explorer = () => {
     }
   `)
 
+  // To calculate statistical rarity: Multiply rarites of all features (including missing features, e.g. rarity of no pants), and multiply with rarity of feature count.
+  // To get rarity names, sort Zombits in order of increasing rarity, divide 10,000 Zombits up into 6 groups of 1, 117, 317, 861, 2341, and 6363, and name them "The Only One", "Legendary", "Epic", "Rare", "Uncommon", and "Common" respectively.
+  // (1, 9999*(e**0)/(e**0+e**1+e**2+e**3+e**4), 9999*(e**1)/(e**0+e**1+e**2+e**3+e**4), 9999*(e**2)/(e**0+e**1+e**2+e**3+e**4), 9999*(e**3)/(e**0+e**1+e**2+e**3+e**4), 9999*(e**4)/(e**0+e**1+e**2+e**3+e**4))
+
   const [filteredItems, setFilteredItems] = React.useState([])
   const [shownItems, setShownItems] = React.useState([])
   const [hasMoreItems, setHasMoreItems] = React.useState(true)
@@ -147,13 +151,6 @@ const Explorer = () => {
   const handleCloseModal = () => {
     setSelectedZombit(undefined)
   }
-
-  // To calculate statistical rarity: Multiply rarites of all features (including missing features, e.g. rarity of no pants), and multiply with rarity of feature count.
-  // To get rarity names, sort Zombits in order of increasing rarity, divide 10,000 Zombits up into 6 groups of 1, 117, 317, 861, 2341, and 6363, and name them "The Only One", "Legendary", "Epic", "Rare", "Uncommon", and "Common" respectively.
-  // (1, 9999*(e**0)/(e**0+e**1+e**2+e**3+e**4), 9999*(e**1)/(e**0+e**1+e**2+e**3+e**4), 9999*(e**2)/(e**0+e**1+e**2+e**3+e**4), 9999*(e**3)/(e**0+e**1+e**2+e**3+e**4), 9999*(e**4)/(e**0+e**1+e**2+e**3+e**4))
-
-  // TODOs:
-  // 4. Rarity tables (1: all different features and their counts, 2: number of features and their counts)
 
   return (
     <div className={explorerStyles.explorer}>
