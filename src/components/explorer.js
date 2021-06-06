@@ -105,11 +105,18 @@ const Explorer = () => {
 
   // Generate grouped dropdown options for features
   const featureFilterOptions = data.allFeaturesJson.edges.map(edge => (
-    <OptGroup key={edge.node.name} label={edge.node.name}>
+    <OptGroup
+      key={edge.node.name}
+      label={`${edge.node.name} (${edge.node.values.length.toLocaleString(
+        "en"
+      )})`}
+    >
       {edge.node.values.map(value => (
         <Option key={value.name}>
           {value.name}{" "}
-          <span className={explorerStyles.percentage}>({value.count})</span>
+          <span className={explorerStyles.percentage}>
+            ({value.count.toLocaleString("en")})
+          </span>
         </Option>
       ))}
     </OptGroup>
@@ -120,7 +127,9 @@ const Explorer = () => {
     edge => (
       <Option key={edge.node.value}>
         {edge.node.name}{" "}
-        <span className={explorerStyles.percentage}>({edge.node.count})</span>
+        <span className={explorerStyles.percentage}>
+          ({edge.node.count.toLocaleString("en")})
+        </span>
       </Option>
     )
   )
@@ -129,7 +138,9 @@ const Explorer = () => {
   const raritiesFilterOptions = data.allRaritiesJson.edges.map(edge => (
     <Option key={edge.node.name}>
       {edge.node.name}{" "}
-      <span className={explorerStyles.percentage}>({edge.node.count})</span>
+      <span className={explorerStyles.percentage}>
+        ({edge.node.count.toLocaleString("en")})
+      </span>
     </Option>
   ))
 
