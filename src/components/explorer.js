@@ -264,6 +264,7 @@ const Explorer = () => {
           {idFilterOptions}
         </Select>
         <Select
+          virtual={false}
           className={explorerStyles.filter}
           mode="multiple"
           allowClear
@@ -274,6 +275,7 @@ const Explorer = () => {
           {featureFilterOptions}
         </Select>
         <Select
+          virtual={false}
           className={explorerStyles.filter}
           size="large"
           defaultValue="0"
@@ -283,6 +285,7 @@ const Explorer = () => {
           {featureCountFilterOptions}
         </Select>
         <Select
+          virtual={false}
           className={explorerStyles.filter}
           size="large"
           defaultValue=""
