@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Common",
+    "count": 6363
+  },
+  {
+    "name": "Uncommon",
+    "count": 2341
+  },
+  {
+    "name": "Rare",
+    "count": 861
+  },
+  {
+    "name": "Epic",
+    "count": 317
+  },
+  {
+    "name": "Legendary",
+    "count": 117
+  },
+  {
+    "name": "The Only One",
+    "count": 1
+  }
+]

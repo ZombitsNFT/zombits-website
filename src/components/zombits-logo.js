@@ -11,7 +11,7 @@ const ZombitsLogo = () => {
         src="../images/zombits-logo.png"
         alt="Zombits"
         width={640}
-        imgClassName={zombitsLogoStyles.pixelated}
+        className={zombitsLogoStyles.pixelated}
         placeholder="none"
         formats={["png"]}
         quality={100}

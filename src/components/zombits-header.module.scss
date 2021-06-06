@@ -10,6 +10,7 @@
   background-image: url("../images/header-background.png"); // TODO: BG image plugin?
   background-size: cover;
   background-position-x: center;
+  background-color: #4eadf5;
   image-rendering: pixelated;
 }
 
@@ -23,7 +24,7 @@
   margin: 0px 32px 32px 32px;
 }
 
-h2 {
+.h2 {
   color: white;
   max-width: 640px;
   margin: 0px 32px 32px 32px;

@@ -18,7 +18,9 @@ const ZombitsHeader = () => {
       <div className={zombitsHeaderStyles.zombitsLogo}>
         <ZombitsLogo />
       </div>
-      <h2>10,000 crypto collectibles on the Cardano blockchain</h2>
+      <h2 className={zombitsHeaderStyles.h2}>
+        10,000 crypto collectibles on the Cardano blockchain
+      </h2>
       <div className={zombitsHeaderStyles.social}>
         <TwitterSocial />
         <TelegramSocial />
