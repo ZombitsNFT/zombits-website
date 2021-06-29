@@ -1,0 +1,13 @@
+.pixelated {
+  image-rendering: pixelated;
+  position: absolute;
+}
+
+.button {
+  background: none;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}

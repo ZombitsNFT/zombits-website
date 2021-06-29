@@ -3,7 +3,7 @@ import React from "react"
 import ZombitsImage from "./zombits-image"
 import ZombitsLogo from "./zombits-logo"
 import * as zombitsHeaderStyles from "./zombits-header.module.scss"
-import ComingSoon from "./coming-soon"
+import BuyNow from "./buy-now"
 import TwitterSocial from "./twitter-social"
 import TelegramSocial from "./telegram-social"
 
@@ -25,8 +25,8 @@ const ZombitsHeader = () => {
         <TwitterSocial />
         <TelegramSocial />
       </div>
-      <div className={zombitsHeaderStyles.comingSoon}>
-        <ComingSoon />
+      <div className={zombitsHeaderStyles.buyNow}>
+        <BuyNow />
       </div>
     </div>
   )
