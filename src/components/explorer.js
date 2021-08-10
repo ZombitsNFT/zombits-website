@@ -244,9 +244,16 @@ const Explorer = () => {
       </ReactModal>
       <h2 className={explorerStyles.h2}>Explore</h2>
       <p>
-        Only 10,000 Zombits were ever minted using a time-locked policy. No two
-        Zombits are alike, and each Zombit has a unique set of features, making
-        some Zombits more valuable than others.
+        Only 10,000 Zombits were ever minted using a{" "}
+        <a
+          href="https://cardanoscan.io/tokenPolicy/ad6290066292cfeef7376cd575e5d8367833ab3d8b2ac53d26ae4ecc"
+          target="_blank"
+          rel="noreferrer"
+        >
+          time-locked policy
+        </a>
+        . No two Zombits are alike, and each Zombit has a unique set of
+        features, making some Zombits more valuable than others.
       </p>
       <p>Explore all Zombits below!</p>
       <div className={explorerStyles.filters}>
