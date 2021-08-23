@@ -1,3 +1,9 @@
+.button-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .pixelated {
   image-rendering: pixelated;
   position: absolute;
@@ -10,4 +16,113 @@
 
 .button:hover {
   cursor: pointer;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.modal-content {
+  display: block;
+  overflow-y: auto;
+  padding: 32px;
+}
+
+.modal-close-button {
+  content: "✕";
+  position: absolute;
+  font-size: 24px;
+  width: 48px;
+  height: 48px;
+  top: 8px;
+  right: 8px;
+  transition: 0.2s;
+  background: none;
+  color: #a6a6a6;
+  border: none;
+  padding: 0;
+}
+
+.modal-close-button:hover {
+  background-color: rgba($color: #000000, $alpha: 0.05);
+  cursor: pointer;
+}
+
+.not-found {
+  image-rendering: pixelated;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  2% {
+    transform: rotate(5deg);
+  }
+  4% {
+    transform: rotate(-5deg);
+  }
+  6% {
+    transform: rotate(5deg);
+  }
+  8% {
+    transform: rotate(-5deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.wiggle {
+  animation: wiggle 4s infinite;
+}
+
+.strong {
+  font-weight: bold;
+  font-size: 2em;
+  overflow: scroll;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.modal-zombit-name {
+  margin-bottom: 0;
+}
+
+.modal-rarity {
+  margin: 0;
+  padding: 8px 8px 4px 8px;
+  border-radius: 5px;
+  color: white;
+}
+
+.common-rarity {
+  background-color: #a6a6a6;
+}
+
+.uncommon-rarity {
+  background-color: #6cb832;
+}
+
+.rare-rarity {
+  background-color: #2c29ff;
+}
+
+.epic-rarity {
+  background-color: #8f3499;
+}
+
+.legendary-rarity {
+  background-color: #d04648;
+}
+
+.the-only-one-rarity {
+  background-color: #ee8e2e;
 }

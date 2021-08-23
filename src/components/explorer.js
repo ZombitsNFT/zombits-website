@@ -178,7 +178,7 @@ const Explorer = () => {
         {selectedZombit && (
           <div className={explorerStyles.modalContent}>
             <button
-              className={`${explorerStyles.modalCloseButton}`}
+              className={explorerStyles.modalCloseButton}
               onClick={handleCloseModal}
             >
               ✕
