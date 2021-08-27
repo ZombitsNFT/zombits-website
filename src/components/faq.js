@@ -35,14 +35,14 @@ const Faq = () => {
               margin: "auto",
             }}
           >
-            To buy a Zombit, click the BUY NOW button at the{" "}
-            <a href="/#">top of the page</a>.
+            To buy a Zombit, click the BUY NOW button <a href="/#">above</a>{" "}
+            once the countdown has ended.
             <br />
             Once clicked, a random Zombit will be reserved for you for 10
             minutes.
             <br />
-            To purchase the reserved Zombit, send the exact amount of ADA shown
-            to the payment address.
+            To receive your reserved Zombit, send the exact amount of ADA shown
+            to the payment Cardano address.
             <br />
             If you send an incorrect amount, the amount (minus the transaction
             fee) will be automatically refunded.
@@ -164,7 +164,8 @@ const Faq = () => {
             IPFS and Arweave links in order to keep the Zombits immutable and
             retrievable forever.
             <br />
-            The metadata are in the minting transactions of the tokens. View the{" "}
+            The metadata are in the minting transactions of the tokens. To see
+            an example, view this{" "}
             <a
               href="https://cardanoscan.io/transaction/49d840383d2729886f146ca6d8fc4210c066c4810fec5847cb3a168ef9cf9f1b?tab=metadata"
               target="_blank"
@@ -172,8 +173,7 @@ const Faq = () => {
             >
               minting transaction
             </a>
-            , scroll down to the metadata tab, and click on the metadata to see
-            it.
+            , scroll down to the metadata tab, and click on the metadata.
             <br />
           </Typography>
         </AccordionDetails>
