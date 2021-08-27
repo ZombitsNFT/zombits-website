@@ -178,10 +178,10 @@ const BuyNow = () => {
               formats={["png"]}
               quality={100}
             />
-            <h3>
+            <h2>
               {zeroPad(props.days)}:{zeroPad(props.hours)}:
               {zeroPad(props.minutes)}:{zeroPad(props.seconds)}
-            </h3>
+            </h2>
           </div>
         )
       }}
