@@ -9,7 +9,6 @@ const { Option } = Select
 
 const BuyNow = () => {
   const [isModalOpen, setIsModalOpen] = React.useState(false)
-  const [randomNumber] = React.useState(Math.random() / 10)
   const [zombitsAmount, setZombitsAmount] = React.useState(1)
   const [timer] = React.useState(undefined)
 
@@ -20,7 +19,7 @@ const BuyNow = () => {
 
   return (
     <Countdown
-      date={new Date("29 August 2021, 17:00:00 EDT")}
+      date={new Date("29 August 2021, 13:00:00 EDT")}
       renderer={props => {
         return props.completed ? (
           <div className={buyNowButtonStyles.buttonContent}>
@@ -85,9 +84,7 @@ const BuyNow = () => {
                     , send EXACTLY
                   </p>
                   <p className={buyNowButtonStyles.strong}>
-                    {Math.round(
-                      (10 + randomNumber) * zombitsAmount * 1_000_000
-                    ) / 1_000_000}
+                    {10 * zombitsAmount}
                   </p>
                   <p>ADA to the following Cardano address:</p>
                   <p className={buyNowButtonStyles.strong}>
@@ -107,19 +104,13 @@ const BuyNow = () => {
                   <ul>
                     <li>
                       Never send ADA from an exchange! Your Zombits will be
-                      lost.
+                      lost. :(
                     </li>
                     <li>
-                      If you send an incorrect amount, that amount (minus the
-                      transaction fee) will be automatically refunded.
-                    </li>
-                    <li>
-                      Due to the nature of NFTs, no refunds will be issued under
-                      other circumstances.
-                    </li>
-                    <li>
-                      The time taken to receive your Zombits may vary. Message
-                      us on{" "}
+                      Due to high volume of purchases or other technical
+                      difficulties, some payments may take longer to process, or
+                      may need to be processed manually. But rest assured! You
+                      will either get your Zombit or get a refund. :) Message us on{" "}
                       <a
                         href="https://twitter.com/ZombitsNFT"
                         target="_blank"
@@ -143,7 +134,7 @@ const BuyNow = () => {
                       >
                         Telegram
                       </a>{" "}
-                      if you have any questions or concerns!
+                      if you have any questions or concerns! :)
                     </li>
                   </ul>
                 </div>
