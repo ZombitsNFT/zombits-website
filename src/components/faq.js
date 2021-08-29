@@ -77,6 +77,8 @@ const Faq = () => {
             <br />
             <a href={"https://namiwallet.io/"}>Nami</a>
             <br />
+            <a href={"https://adalite.io/"}>AdaLite</a>
+            <br />
             <a href={"https://daedaluswallet.io/"}>Daedalus</a>
             <br />
             Never send ADA from an exchange!
