@@ -19,7 +19,7 @@ const BuyNow = () => {
 
   return (
     <Countdown
-      date={new Date("29 August 2021, 13:00:00 EDT")}
+      date={new Date("29 August 2021, 17:00:00 EDT")}
       renderer={props => {
         return props.completed ? (
           <div className={buyNowButtonStyles.buttonContent}>
