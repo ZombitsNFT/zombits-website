@@ -4,6 +4,7 @@ import TwitterSocial from "./twitter-social"
 import TelegramSocial from "./telegram-social"
 import BuyNow from "./buy-now"
 import * as aboutStyles from "./about.module.scss"
+import DiscordSocial from "./discord-social"
 
 const About = () => {
   return (
@@ -22,12 +23,13 @@ const About = () => {
         rarity, making some Zombits rarer than others.
       </p>
       <p>Start collecting now!</p>
-      <div className={aboutStyles.social}>
-        <TwitterSocial />
-        <TelegramSocial />
-      </div>
       <div className={aboutStyles.buyNow}>
         <BuyNow />
+      </div>
+      <div className={aboutStyles.social}>
+        <TwitterSocial />
+        <DiscordSocial />
+        <TelegramSocial />
       </div>
     </div>
   )

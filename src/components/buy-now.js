@@ -17,7 +17,25 @@ const BuyNow = () => {
     clearInterval(timer)
   }
 
-  return <div className={buyNowButtonStyles.buttonContent}></div>
+  return (
+    <div className={buyNowButtonStyles.buttonContent}>
+      <a
+        href="https://cnft.io/marketplace.php?s=Zombits"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <StaticImage
+          src="../images/buy-now.png"
+          alt="Buy Now"
+          width={300}
+          imgClassName={buyNowButtonStyles.pixelated}
+          placeholder="none"
+          formats={["png"]}
+          quality={100}
+        />
+      </a>
+    </div>
+  )
 }
 
 export default BuyNow

@@ -35,53 +35,15 @@ const Faq = () => {
               margin: "auto",
             }}
           >
-            To buy a Zombit, click the BUY NOW button <a href="/#">above</a>{" "}
-            once the countdown has ended.
-            <br />
-            Once clicked, a random Zombit will be reserved for you for 10
-            minutes.
-            <br />
-            To receive your reserved Zombit, send the exact amount of ADA shown
-            to the payment Cardano address.
-            <br />
-            If you send an incorrect amount, the amount (minus the transaction
-            fee) will be automatically refunded.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          style={{ backgroundColor: "#eee" }}
-        >
-          <Typography
-            style={{
-              fontFamily:
-                "Connection III, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
-              fontSize: "1.25em",
-            }}
-          >
-            Which wallets can I use?
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails style={{ backgroundColor: "#fff" }}>
-          <Typography
-            style={{
-              fontFamily:
-                "Connection III, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
-              fontSize: "1.25em",
-              margin: "auto",
-            }}
-          >
-            <a href={"https://yoroi-wallet.com/"}>Yoroi</a>
-            <br />
-            <a href={"https://namiwallet.io/"}>Nami</a>
-            <br />
-            <a href={"https://adalite.io/"}>AdaLite</a>
-            <br />
-            <a href={"https://daedaluswallet.io/"}>Daedalus</a>
-            <br />
-            Never send ADA from an exchange!
+            Missed the sale? No worries! Head to{" "}
+            <a
+              href="https://cnft.io/marketplace.php?s=Zombits"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CNFT.io
+            </a>{" "}
+            to buy a Zombit now!
           </Typography>
         </AccordionDetails>
       </Accordion>

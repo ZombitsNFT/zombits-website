@@ -10,7 +10,7 @@ import Explorer from "../components/explorer"
 const Home = () => {
   return (
     <div>
-      <Head title="Coming Soon" />
+      <Head title="NFTs on Cardano" />
       <ZombitsHeader />
       <About />
       <Faq />

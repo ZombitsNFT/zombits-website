@@ -6,6 +6,7 @@ import * as zombitsHeaderStyles from "./zombits-header.module.scss"
 import BuyNow from "./buy-now"
 import TwitterSocial from "./twitter-social"
 import TelegramSocial from "./telegram-social"
+import DiscordSocial from "./discord-social"
 
 const ZombitsHeader = () => {
   return (
@@ -21,12 +22,13 @@ const ZombitsHeader = () => {
       <h2 className={zombitsHeaderStyles.h2}>
         10,000 crypto collectibles on the Cardano blockchain
       </h2>
-      <div className={zombitsHeaderStyles.social}>
-        <TwitterSocial />
-        <TelegramSocial />
-      </div>
       <div className={zombitsHeaderStyles.buyNow}>
         <BuyNow />
+      </div>
+      <div className={zombitsHeaderStyles.social}>
+        <TwitterSocial />
+        <DiscordSocial />
+        <TelegramSocial />
       </div>
     </div>
   )
