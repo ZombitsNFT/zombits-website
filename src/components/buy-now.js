@@ -20,7 +20,7 @@ const BuyNow = () => {
   return (
     <div className={buyNowButtonStyles.buttonContent}>
       <a
-        href="https://cnft.io/marketplace.php?s=Zombits"
+        href="https://cnft.io/marketplace.php?s=Zombit"
         target="_blank"
         rel="noreferrer"
       >

@@ -37,7 +37,7 @@ const Faq = () => {
           >
             Missed the sale? No worries! Head to{" "}
             <a
-              href="https://cnft.io/marketplace.php?s=Zombits"
+              href="https://cnft.io/marketplace.php?s=Zombit"
               target="_blank"
               rel="noreferrer"
             >
