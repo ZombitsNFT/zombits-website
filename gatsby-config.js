@@ -8,6 +8,8 @@ module.exports = {
     twitterUrl: "https://twitter.com/ZombitsNFT",
     telegramUrl: "https://t.me/Zombits",
     discordUrl: "https://discord.gg/TknQtZGEpg",
+    marketplaceUrl:
+      "https://cnft.io/marketplace.php?verified=true&project=Zombits",
   },
   plugins: [
     "gatsby-plugin-image",

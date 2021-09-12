@@ -1,26 +1,24 @@
 import React from "react"
-import ReactModal from "react-modal"
-import Countdown, { zeroPad } from "react-countdown"
 import { StaticImage } from "gatsby-plugin-image"
-import { Select } from "antd"
+import { graphql, useStaticQuery } from "gatsby"
 
 import * as buyNowButtonStyles from "./buy-now.module.scss"
-const { Option } = Select
 
 const BuyNow = () => {
-  const [isModalOpen, setIsModalOpen] = React.useState(false)
-  const [zombitsAmount, setZombitsAmount] = React.useState(1)
-  const [timer] = React.useState(undefined)
-
-  const handleCloseModal = () => {
-    setIsModalOpen(false)
-    clearInterval(timer)
-  }
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          marketplaceUrl
+        }
+      }
+    }
+  `)
 
   return (
     <div className={buyNowButtonStyles.buttonContent}>
       <a
-        href="https://cnft.io/marketplace.php?s=Zombit"
+        href={data.site.siteMetadata.marketplaceUrl}
         target="_blank"
         rel="noreferrer"
       >

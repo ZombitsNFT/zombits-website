@@ -4,10 +4,21 @@ import AccordionSummary from "@material-ui/core/AccordionSummary"
 import AccordionDetails from "@material-ui/core/AccordionDetails"
 import Typography from "@material-ui/core/Typography"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
+import { graphql, useStaticQuery } from "gatsby"
 
 import * as faqStyles from "./faq.module.scss"
 
 const Faq = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          marketplaceUrl
+        }
+      }
+    }
+  `)
+
   return (
     <div className={faqStyles.faq}>
       <h2 className={faqStyles.h2}>FAQ</h2>
@@ -37,7 +48,7 @@ const Faq = () => {
           >
             Missed the sale? No worries! Head to{" "}
             <a
-              href="https://cnft.io/marketplace.php?s=Zombit"
+              href={data.site.siteMetadata.marketplaceUrl}
               target="_blank"
               rel="noreferrer"
             >
