@@ -242,7 +242,9 @@ const Explorer = () => {
           </div>
         )}
       </ReactModal>
-      <h2 className={explorerStyles.h2}>Explore</h2>
+      <h2 id="explore" className={explorerStyles.h2}>
+        Explore
+      </h2>
       <p>
         Only 10,000 Zombits were ever minted using a{" "}
         <a

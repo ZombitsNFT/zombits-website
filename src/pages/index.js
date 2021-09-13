@@ -4,6 +4,7 @@ import Head from "../components/head"
 import ZombitsHeader from "../components/zombits-header"
 import "../styles/index.scss"
 import About from "../components/about"
+import Roadmap from "../components/roadmap"
 import Faq from "../components/faq"
 import Explorer from "../components/explorer"
 
@@ -13,6 +14,7 @@ const Home = () => {
       <Head title="NFTs on Cardano" />
       <ZombitsHeader />
       <About />
+      <Roadmap />
       <Faq />
       <Explorer />
     </div>

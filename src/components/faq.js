@@ -21,7 +21,9 @@ const Faq = () => {
 
   return (
     <div className={faqStyles.faq}>
-      <h2 className={faqStyles.h2}>FAQ</h2>
+      <h2 id="faq" className={faqStyles.h2}>
+        F.A.Q.
+      </h2>
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -42,19 +44,20 @@ const Faq = () => {
             style={{
               fontFamily:
                 "Connection III, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
-              fontSize: "1.25em",
               margin: "auto",
             }}
           >
-            Missed the sale? No worries! Head to{" "}
-            <a
-              href={data.site.siteMetadata.marketplaceUrl}
-              target="_blank"
-              rel="noreferrer"
-            >
-              CNFT.io
-            </a>{" "}
-            to buy a Zombit now!
+            <p>
+              Missed the sale? No worries! Head to{" "}
+              <a
+                href={data.site.siteMetadata.marketplaceUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                CNFT.io
+              </a>{" "}
+              to buy a Zombit now!
+            </p>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -78,38 +81,39 @@ const Faq = () => {
             style={{
               fontFamily:
                 "Connection III, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
-              fontSize: "1.25em",
               margin: "auto",
             }}
           >
-            Yes!
-            <br />
-            These Zombits were minted using a{" "}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://cardanoscan.io/tokenPolicy/ad6290066292cfeef7376cd575e5d8367833ab3d8b2ac53d26ae4ecc"
-            >
-              time-locked policy
-            </a>
-            , meaning that no more Zombits can be created (minted) or destroyed
-            (burned) after a certain amount of time.
-            <br />
-            That certain amount of time has passed, and all 10,000 Zombits have
-            been minted, meaning there will only ever be one of each 10,000
-            Zombits!
-            <br />
-            Therefore, by definition, all Zombits are NFTs.
-            <br />
-            You can view the minting policy{" "}
-            <a
-              href="https://pool.pm/policy/ad6290066292cfeef7376cd575e5d8367833ab3d8b2ac53d26ae4ecc"
-              target="_blank"
-              rel="noreferrer"
-            >
-              here
-            </a>
-            .
+            <p>Yes!</p>
+            <p>
+              These Zombits were minted using a{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://cardanoscan.io/tokenPolicy/ad6290066292cfeef7376cd575e5d8367833ab3d8b2ac53d26ae4ecc"
+              >
+                time-locked policy
+              </a>
+              , meaning that no more Zombits can be created (minted) or
+              destroyed (burned) after a certain amount of time.
+            </p>
+            <p>
+              That certain amount of time has passed, and all 10,000 Zombits
+              have been minted, meaning there will only ever be one of each
+              10,000 Zombits!
+            </p>
+            <p>Therefore, by definition, all Zombits are NFTs.</p>
+            <p>
+              You can view the minting policy{" "}
+              <a
+                href="https://pool.pm/policy/ad6290066292cfeef7376cd575e5d8367833ab3d8b2ac53d26ae4ecc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                here
+              </a>
+              .
+            </p>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -133,25 +137,26 @@ const Faq = () => {
             style={{
               fontFamily:
                 "Connection III, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
-              fontSize: "1.25em",
               margin: "auto",
             }}
           >
-            The metadata for each Zombit are on-chain. The metadata contains
-            IPFS and Arweave links in order to keep the Zombits immutable and
-            retrievable forever.
-            <br />
-            The metadata are in the minting transactions of the tokens. To see
-            an example, view this{" "}
-            <a
-              href="https://cardanoscan.io/transaction/49d840383d2729886f146ca6d8fc4210c066c4810fec5847cb3a168ef9cf9f1b?tab=metadata"
-              target="_blank"
-              rel="noreferrer"
-            >
-              minting transaction
-            </a>
-            , scroll down to the metadata tab, and click on the metadata.
-            <br />
+            <p>
+              The metadata for each Zombit are on-chain. The metadata contains
+              IPFS and Arweave links in order to keep the Zombits immutable and
+              retrievable forever.
+            </p>
+            <p>
+              The metadata are in the minting transactions of the tokens. To see
+              an example, view this{" "}
+              <a
+                href="https://cardanoscan.io/transaction/49d840383d2729886f146ca6d8fc4210c066c4810fec5847cb3a168ef9cf9f1b?tab=metadata"
+                target="_blank"
+                rel="noreferrer"
+              >
+                minting transaction
+              </a>
+              , scroll down to the metadata tab, and click on the metadata.
+            </p>
           </Typography>
         </AccordionDetails>
       </Accordion>

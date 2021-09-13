@@ -9,7 +9,9 @@ import DiscordSocial from "./discord-social"
 const About = () => {
   return (
     <div className={aboutStyles.about}>
-      <h2 className={aboutStyles.h2}>About</h2>
+      <h2 id="about" className={aboutStyles.h2}>
+        About
+      </h2>
       <p>
         Zombits is an NFT project of 10,000 unique crypto collectibles on the
         Cardano blockchain.

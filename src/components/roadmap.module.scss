@@ -1,4 +1,4 @@
-.faq {
+.roadmap {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -10,4 +10,17 @@
 .h2 {
   max-width: 640px;
   margin: 64px 0 16px 0;
+}
+
+.ol {
+  list-style-position: inside;
+  padding: 0;
+}
+
+.li {
+  text-align: left;
+}
+
+.light {
+  color: #a6a6a6;
 }
