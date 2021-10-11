@@ -14,6 +14,9 @@ const Faq = () => {
       site {
         siteMetadata {
           marketplaceUrl
+          discordUrl
+          twitterUrl
+          telegramUrl
         }
       }
     }
@@ -24,6 +27,66 @@ const Faq = () => {
       <h2 id="faq" className={faqStyles.h2}>
         F.A.Q.
       </h2>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          style={{ backgroundColor: "#eee" }}
+        >
+          <Typography
+            style={{
+              fontFamily:
+                "Connection III, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+              fontSize: "1.25em",
+            }}
+          >
+            How can I buy a Humbit?
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails style={{ backgroundColor: "#fff" }}>
+          <Typography
+            style={{
+              fontFamily:
+                "Connection III, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+              margin: "auto",
+            }}
+          >
+            <p>
+              Humbits will be launching this Sunday (October 17) at 5pm EST! 🚀
+            </p>
+            <p>
+              A "Buy Now" button will appear on this website, and you'll be able
+              to start collecting Humbits!
+            </p>
+            <p>
+              Stay tuned for more information and announcements on our{" "}
+              <a
+                href={data.site.siteMetadata.discordUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Discord
+              </a>
+              ,{" "}
+              <a
+                href={data.site.siteMetadata.twitterUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Twitter
+              </a>{" "}
+              or{" "}
+              <a
+                href={data.site.siteMetadata.telegramUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Telegram
+              </a>
+              .
+            </p>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -48,7 +111,7 @@ const Faq = () => {
             }}
           >
             <p>
-              Missed the sale? No worries! Head to{" "}
+              The Zombits sale is over! Missed the sale? No worries! Head to{" "}
               <a
                 href={data.site.siteMetadata.marketplaceUrl}
                 target="_blank"
@@ -86,7 +149,7 @@ const Faq = () => {
           >
             <p>Yes!</p>
             <p>
-              These Zombits were minted using a{" "}
+              Zombits were minted using a{" "}
               <a
                 target="_blank"
                 rel="noreferrer"

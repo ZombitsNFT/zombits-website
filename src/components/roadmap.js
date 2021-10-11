@@ -184,7 +184,7 @@ const Roadmap = () => {
               }}
             >
               <li className={roadmapStyles.li}>
-                Design and mint 10,000 Humanbits{" "}
+                <s>Design 10,000 Humbits</s>{" "}
                 <span className={roadmapStyles.light}>October 2021</span>
               </li>
             </Typography>
@@ -199,11 +199,11 @@ const Roadmap = () => {
             >
               <p>
                 The journey of Zombits shall continue! We're introducing 10,000
-                Humanbit NFTs, each designed with its unique set of traits.
+                Humbit NFTs, each designed with its unique set of traits.
               </p>
               <p>
-                Why, you ask? Humanbits will play a crucial role in the upcoming{" "}
-                <i>Humanbits vs. Zombits</i> game; some Humabits will have
+                Why, you ask? Humbits will play a crucial role in the upcoming{" "}
+                <i>Humbits vs. Zombits</i> game; some Humabits will have
                 different in-game abilities than others.
               </p>
             </Typography>
@@ -223,7 +223,7 @@ const Roadmap = () => {
               }}
             >
               <li className={roadmapStyles.li}>
-                🚀 Launch Humanbits{" "}
+                🚀 Launch Humbits{" "}
                 <span className={roadmapStyles.light}>October 2021</span>
               </li>
             </Typography>
@@ -237,13 +237,8 @@ const Roadmap = () => {
               }}
             >
               <p>
-                The launch is planned to take place sometime in October &mdash;
-                this time using Cardano smart contracts!
-              </p>
-              <p>
-                Thanks to the smart contracts, the launch is expected to go
-                super smoothly. There won't be a need to send out Humanbits
-                manually. ;)
+                The Humbits are preparing for war, and will drop this Sunday
+                (October 17th) at 5pm EST!
               </p>
             </Typography>
           </AccordionDetails>
@@ -262,7 +257,7 @@ const Roadmap = () => {
               }}
             >
               <li className={roadmapStyles.li}>
-                Develop Humanbits vs. Zombits game{" "}
+                Develop Humbits vs. Zombits game{" "}
                 <span className={roadmapStyles.light}>
                   October&ndash;November 2021
                 </span>
@@ -280,20 +275,20 @@ const Roadmap = () => {
               <p>Let the development begin!</p>
               <p>
                 We'll be busy designing the game and writing Cardano smart
-                contracts to get our <i>Humanbits vs. Zombits</i> game onto the
+                contracts to get our <i>Humbits vs. Zombits</i> game onto the
                 Cardano blockchain.
               </p>
               <p>
                 The game will have a rock-paper-scissors style gameplay (think
                 Pokémon battles). A Zombit owner will be paired up with a
-                Humanbit owner randomly, and each player will be assigned three
+                Humbits owner randomly, and each player will be assigned three
                 random weapons. The players will choose which weapon they want
                 to use against their opponent, and the winner with stronger
                 weapon wins.
               </p>
               <p>
                 Players will receive certain benefits throughout the game based
-                on the players' rarity, so rarer Zombits/Humanbits may have more
+                on the players' rarity, so rarer Zombits/Humbits may have more
                 of an advantage.
               </p>
               <p>
@@ -317,7 +312,7 @@ const Roadmap = () => {
               }}
             >
               <li className={roadmapStyles.li}>
-                🚀 Launch Humanbits vs. Zombits game{" "}
+                🚀 Launch Humbits vs. Zombits game{" "}
                 <span className={roadmapStyles.light}>November 2021</span>
               </li>
             </Typography>

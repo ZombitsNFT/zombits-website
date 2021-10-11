@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Skin",
+    "values": [
+      { "name": "Ghost", "count": 970 },
+      { "name": "Dark Skin", "count": 3265 },
+      { "name": "Light Skin", "count": 3703 },
+      { "name": "Yellow Skin", "count": 1897 },
+      { "name": "Flesh", "count": 165 }
+    ]
+  },
+  {
+    "name": "Suit",
+    "values": [
+      { "name": "Prison Uniform", "count": 1500 },
+      { "name": "Blue Jeans", "count": 1769 },
+      { "name": "Ripped Jeans", "count": 1477 },
+      { "name": "Lab Coat", "count": 1894 },
+      { "name": "Cargo Shorts", "count": 1516 },
+      { "name": "Underwear", "count": 406 },
+      { "name": "Pink Skirt", "count": 733 },
+      { "name": "Checkered Shirt", "count": 1 }
+    ]
+  },
+  {
+    "name": "Mouth",
+    "values": [
+      { "name": "Short Black Beard", "count": 764 },
+      { "name": "Pipe", "count": 332 },
+      { "name": "Missing Tooth", "count": 724 },
+      { "name": "Drool", "count": 310 },
+      { "name": "Silver Tooth", "count": 770 },
+      { "name": "Black Mustache", "count": 775 },
+      { "name": "Stubble", "count": 1515 },
+      { "name": "Clown Makeup", "count": 307 },
+      { "name": "Gold Tooth", "count": 292 },
+      { "name": "Braces", "count": 797 },
+      { "name": "Mask", "count": 334 },
+      { "name": "Bubble Gum", "count": 186 },
+      { "name": "Brown Mustache", "count": 723 },
+      { "name": "Lipstick", "count": 325 },
+      { "name": "Cigarette", "count": 336 },
+      { "name": "Short Brown Beard", "count": 1 }
+    ]
+  },
+  {
+    "name": "Eyes",
+    "values": [
+      { "name": "Glasses", "count": 826 },
+      { "name": "Sus Eyes", "count": 442 },
+      { "name": "Safety Goggles", "count": 572 },
+      { "name": "Crazy Eyes", "count": 621 },
+      { "name": "Censored Eyes", "count": 449 },
+      { "name": "3D Glasses", "count": 570 },
+      { "name": "Winking Eyes", "count": 811 },
+      { "name": "Surprised Eyes", "count": 426 },
+      { "name": "Eyelashes", "count": 827 },
+      { "name": "Burgundy Eyes", "count": 868 },
+      { "name": "Bruised Eye", "count": 551 },
+      { "name": "Crystal Eyes", "count": 836 },
+      { "name": "Heart Eyes", "count": 438 },
+      { "name": "Monocle", "count": 557 },
+      { "name": "Dollar Eyes", "count": 458 },
+      { "name": "Red Laser Eyes", "count": 157 },
+      { "name": "Blue Laser Eyes", "count": 299 },
+      { "name": "Blindfold", "count": 291 },
+      { "name": "Round Glasses", "count": 1 }
+    ]
+  },
+  {
+    "name": "Head",
+    "values": [
+      { "name": "Long Brown Hair", "count": 510 },
+      { "name": "Cut", "count": 205 },
+      { "name": "Long Red Hair", "count": 491 },
+      { "name": "Propeller Hat", "count": 273 },
+      { "name": "Military Helmet", "count": 409 },
+      { "name": "Bunny Ears", "count": 396 },
+      { "name": "Medium White Hair", "count": 499 },
+      { "name": "Antenna", "count": 218 },
+      { "name": "Unicorn Horn", "count": 401 },
+      { "name": "Top Hat", "count": 423 },
+      { "name": "Beanie", "count": 486 },
+      { "name": "Chef's Hat", "count": 394 },
+      { "name": "Birthday Hat", "count": 289 },
+      { "name": "Purple Fringe", "count": 512 },
+      { "name": "Black Fringe", "count": 481 },
+      { "name": "Diamond", "count": 196 },
+      { "name": "Headband", "count": 402 },
+      { "name": "Medium Blonde Hair", "count": 498 },
+      { "name": "Emperor's Crown", "count": 189 },
+      { "name": "Open Skull", "count": 96 },
+      { "name": "Graduation Cap", "count": 311 },
+      { "name": "Cap", "count": 403 },
+      { "name": "Hair Strand", "count": 277 },
+      { "name": "Fedora Hat", "count": 402 },
+      { "name": "Arrow", "count": 304 },
+      { "name": "Receeding Brown Hairline", "count": 1 }
+    ]
+  }
+]

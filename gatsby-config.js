@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Zombits",
+    title: "Humbits & Zombits",
     description:
-      "Zombits is an NFT collection of 10,000, one-of-a-kind crypto collectibles on the Cardano blockchain.",
+      "Humbits & Zombits is an NFT collection of 10,000, one-of-a-kind crypto collectibles on the Cardano blockchain.",
     keywords:
-      "zombits, zombit, nft, non-fungible token, crypto, cryptocurrency, collectible, cardano, ada, blockchain",
+      "humbits, humbit, zombits, zombit, nft, non-fungible token, crypto, cryptocurrency, collectible, cardano, ada, blockchain",
     twitterUrl: "https://twitter.com/ZombitsNFT",
     telegramUrl: "https://t.me/Zombits",
     discordUrl: "https://discord.gg/TknQtZGEpg",
