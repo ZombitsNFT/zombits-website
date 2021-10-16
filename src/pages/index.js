@@ -16,8 +16,8 @@ const Home = () => {
       {/* <ZombitsHeader /> */}
       <HumbitsHeader />
       <About />
-      <Roadmap />
       <Faq />
+      <Roadmap />
       <MainExplorer />
     </div>
   )
