@@ -23,9 +23,9 @@ const HumbitsHeader = () => {
       <h2 className={humbitsHeaderStyles.h2}>
         10,000 crypto collectibles on the Cardano blockchain
       </h2>
-      <div className={humbitsHeaderStyles.buyNow}>
+      {/* <div className={humbitsHeaderStyles.buyNow}>
         <BuyNow />
-      </div>
+      </div> */}
       <div className={humbitsHeaderStyles.social}>
         <TwitterSocial />
         <DiscordSocial />

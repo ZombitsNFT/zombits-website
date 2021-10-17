@@ -26,10 +26,9 @@ const About = () => {
         a specific rarity, making some collectibles rarer than others.
       </p>
       <p>Start collecting now!</p>
-      <div className={aboutStyles.buyNow}>
+      {/* <div className={aboutStyles.buyNow}>
         <BuyNow />
-        {/* <ComingSoon /> */}
-      </div>
+      </div> */}
       <div className={aboutStyles.social}>
         <TwitterSocial />
         <DiscordSocial />
