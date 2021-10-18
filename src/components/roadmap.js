@@ -223,7 +223,7 @@ const Roadmap = () => {
               }}
             >
               <li className={roadmapStyles.li}>
-                🚀 Launch Humbits{" "}
+                <s>🚀 Launch Humbits</s>{" "}
                 <span className={roadmapStyles.light}>October 2021</span>
               </li>
             </Typography>
