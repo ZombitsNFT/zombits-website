@@ -2,10 +2,10 @@ import React from "react"
 
 import TwitterSocial from "./twitter-social"
 import TelegramSocial from "./telegram-social"
-// import BuyNow from "./buy-now"
+import BuyNow from "./buy-now"
 import * as aboutStyles from "./about.module.scss"
 import DiscordSocial from "./discord-social"
-import ComingSoon from "./coming-soon"
+// import ComingSoon from "./coming-soon"
 
 const About = () => {
   return (
@@ -27,8 +27,8 @@ const About = () => {
       </p>
       <p>Start collecting now!</p>
       <div className={aboutStyles.buyNow}>
-        {/* <BuyNow /> */}
-        <ComingSoon />
+        <BuyNow />
+        {/* <ComingSoon /> */}
       </div>
       <div className={aboutStyles.social}>
         <TwitterSocial />
