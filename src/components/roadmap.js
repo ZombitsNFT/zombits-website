@@ -369,7 +369,7 @@ const Roadmap = () => {
                 rewards)...
               </p>
               <p>
-                Rewards from pool operation may or many not be used to fund
+                Rewards from pool operation may or may not be used to fund
                 giveaways, lotteries, tournaments, etc...
               </p>
               <p>...no promises, TBD. 👀</p>
