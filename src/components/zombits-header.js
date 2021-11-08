@@ -3,7 +3,7 @@ import React from "react"
 import ZombitsImage from "./zombits-image"
 import ZombitsLogo from "./zombits-logo"
 import * as zombitsHeaderStyles from "./zombits-header.module.scss"
-import BuyNow from "./buy-now"
+import PlayNow from "./play-now"
 import TwitterSocial from "./twitter-social"
 import TelegramSocial from "./telegram-social"
 import DiscordSocial from "./discord-social"
@@ -22,8 +22,8 @@ const ZombitsHeader = () => {
       <h2 className={zombitsHeaderStyles.h2}>
         10,000 crypto collectibles on the Cardano blockchain
       </h2>
-      <div className={zombitsHeaderStyles.buyNow}>
-        <BuyNow />
+      <div className={zombitsHeaderStyles.playNow}>
+        <PlayNow />
       </div>
       <div className={zombitsHeaderStyles.social}>
         <TwitterSocial />

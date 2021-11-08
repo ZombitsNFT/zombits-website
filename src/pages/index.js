@@ -2,7 +2,7 @@ import React from "react"
 
 import Head from "../components/head"
 // import ZombitsHeader from "../components/zombits-header"
-import HumbitsHeader from "../components/humbits-header"
+import ZombitsVsHumbitsHeader from "../components/zombits-vs-humbits-header"
 import "../styles/index.scss"
 import About from "../components/about"
 import Roadmap from "../components/roadmap"
@@ -12,9 +12,8 @@ import MainExplorer from "../components/main-explorer"
 const Home = () => {
   return (
     <div>
-      <Head title="Coming Soon" />
-      {/* <ZombitsHeader /> */}
-      <HumbitsHeader />
+      <Head title="Home" />
+      <ZombitsVsHumbitsHeader />
       <About />
       <Faq />
       <Roadmap />

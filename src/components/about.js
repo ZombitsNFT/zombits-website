@@ -2,7 +2,7 @@ import React from "react"
 
 import TwitterSocial from "./twitter-social"
 import TelegramSocial from "./telegram-social"
-import BuyNow from "./buy-now"
+import PlayNow from "./play-now"
 import * as aboutStyles from "./about.module.scss"
 import DiscordSocial from "./discord-social"
 // import ComingSoon from "./coming-soon"
@@ -26,8 +26,8 @@ const About = () => {
         a specific rarity, making some collectibles rarer than others.
       </p>
       <p>Start collecting now!</p>
-      {/* <div className={aboutStyles.buyNow}>
-        <BuyNow />
+      {/* <div className={aboutStyles.playNow}>
+        <PlayNow />
       </div> */}
       <div className={aboutStyles.social}>
         <TwitterSocial />
